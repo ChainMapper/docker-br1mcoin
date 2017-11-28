@@ -18,7 +18,9 @@ Starting BR1M daemon...
 ```
 
 # Proper start
-Use a volume to store all data. The image stores it's data in `bitcoin`. So mapping that volume will do the trick.
+Use a volume to store all data. The image stores it's data in `/data`. So mapping that volume will do the trick.
+
+Additionally you can override the confdig and wallet file  duing volumes pointing to `/config/br1m.conf` and `/config/wallet.data`
 
 # Donations:
 BTC: 1NCZgpMMoNwL6ZeFsEQ2kRZEzzzTd5TuGk
